@@ -1,0 +1,352 @@
+{
+    "SUPPORTED_LANGUAGES": {
+        "en": [
+            "English",
+            "Persian"
+        ],
+        "fa": [
+            "انگلیسی",
+            "فارسی"
+        ],
+        "ar": [
+            "أنجليزي",
+            "فارسي"
+        ]
+    },
+    "MSG_INITIAL_SCREEN": {
+        "en": "Welcome to Bot version {} 🤖❤️",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_HOME": {
+        "en": "What can I do for you?",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_HOME_ELSE": {
+        "en": "What else can I do for you?",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_INITIAL_SCREEN_ADMIN": {
+        "en": "Welcome to the admin panel.",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_UNSUPPORTED_COMMAND": {
+        "en": "Sorry! I don't recognize the command.",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_ERROR": {
+        "en": "This is embarrassing, there seems to be something wrong with server, please try again in 30 seconds!",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_WRONG_CAPTCHA": {
+        "en": "Answer is wrong; please try again.",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_OPT_IN": {
+        "en": "Please read and confirm our privacy policy and terms of use.",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_NO_ACCOUNT": {
+        "en": "You don't have an account. please click on `\\start` command to create an account.",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_HOME_NEW_KEY": {
+        "en": "Get a new key",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_HOME_EXISTING_KEY": {
+        "en": "Your existing key",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_HOME_FAQ": {
+        "en": "FAQ",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_HOME_INSTRUCTION": {
+        "en": "Instruction",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_HOME_CHANGE_LANGUAGE": {
+        "en": "Change Language",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_HOME_PRIVACY_POLICY": {
+        "en": "Privacy Policy",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_CHECK_STATUS": {
+        "en": "Check account and server status",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_ACCOUNT_INFO_OK": {
+        "en": "Your account is ok",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_ACCOUNT_INFO_BANNED": {
+        "en": "Your account is banned",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_SERVER_INFO_OK": {
+        "en": "Your server is working",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_SERVER_INFO_BLOCKED": {
+        "en": "Your server is blocked",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_HOME_DELETE_ACCOUNT": {
+        "en": "Delete Account",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_HOME_SUPPORT": {
+        "en": "Support",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_BACK_HOME": {
+        "en": "Back Home",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_SELECT_LANGUAGE": {
+        "en": "Please Select your desired language.👇",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_LANGUAGE_CHANGED": {
+        "en": "Your language is changed to {} 😍",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_LANGUAGE_CHANGE_ERROR": {
+        "en": "Invalid Language",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_ASK_CAPTCHA": {
+        "en": "We want to make sure you’re not a robot. Please answer following question",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_PRIVACY_POLICY_CONFIRM": {
+        "en": "Confirm",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_PRIVACY_POLICY_DECLINE": {
+        "en": "Decline",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_PRIVACY_POLICY_DECLINE": {
+        "en": "It's alright! If you’re interested in trying different VPNs, you can always find them on @Paskoocheh, a secure App store.",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_BACK_PRIVACY_POLICY": {
+        "en": "Back to Confirm Privacy Policy",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_ASK_ISSUE": {
+        "en": "Please let us know why are you getting a new key?",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_ASK_DELETE_REASONS": {
+        "en": "We're extremely sad to see you leaving! Can you please let us know why you're deleting the account?",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_DELETED_ACCOUNT": {
+        "en": "Your account will be deleted after 7 days!",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_NEW_KEY_A": {
+        "en": "[Click here]({}) to get your new access key and Download VPN. *Your previous access key is revoked.*",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_NEW_KEY_B": {
+        "en": "If the above link didn’t work, you can copy the following code and follow the instructions.",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_EXISTING_KEY_A": {
+        "en": "[Click here]({}) to get your new access key and Download VPN.",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_EXISTING_KEY_B": {
+        "en": "If the above link didn’t work, you can copy the following code and follow the instructions.",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_NO_EXISTING_KEY": {
+        "en": "You don't have old key.",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_OPTIONS_AFTER_NEW": {
+        "en": "What else do you want to do?",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_SUPPORT_BOT": {
+        "en": "Please use this Telegram Bot to send your support requests:",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_FAQ_URL": {
+        "en": "",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_PRIVACY_POLICY_URL": {
+        "en": "Please review the Privacy Policy and Terms of Services",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_DELETE_REASONS": {
+        "en": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "fa": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ],
+        "ar": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    "MSG_ADMIN_HOME": {
+        "en": "Please select from options below",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_ADMIN_BAN_USER": {
+        "en": "‌Ban a user",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_ENTER_USER_TO_BAN": {
+        "en": "Enter username to ban",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_BAN_ERROR": {
+        "en": "Enter username to ban",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_BAN_SUCCESS": {
+        "en": "Enter username to ban",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_ADMIN_TERMS_OF_SERVICE": {
+        "en": "Terms of service link",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_ENTER_TERMS_OF_SERVICE": {
+        "en": "Provide link for terms of service",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_CURRENT_LINK": {
+        "en": "Current link is {}",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_ADMIN_PRIVACY_POLICY": {
+        "en": "Privacy policy link",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_ENTER_PRIVACY_POLICY": {
+        "en": "Provide link for privacy policy",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_ADMIN_ENROLLED_USERS": {
+        "en": "List of all Users",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_ENROLLED_USERS": {
+        "en": "List of all Users",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_ADMIN_BANNED_USERS": {
+        "en": "List of banned Users",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_BANNED_USERS": {
+        "en": "List of banned Users",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_ADMIN_BLOCKED_KEYS": {
+        "en": "List of bloacked keys",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_BLOCKED_KEYS": {
+        "en": "List of bloacked keys",
+        "fa": "",
+        "ar": ""
+    },
+    "MENU_ADMIN_EXIT": {
+        "en": "Exit Admin section",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_LINK_SAVED": {
+        "en": "Link is saved",
+        "fa": "",
+        "ar": ""
+    },
+    "MSG_LINK_ERROR": {
+        "en": "Invalid link",
+        "fa": "",
+        "ar": ""
+    }
+}

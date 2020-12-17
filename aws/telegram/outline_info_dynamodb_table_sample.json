@@ -1,0 +1,27 @@
+{
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "language",
+                "AttributeType": "S"
+            },
+            {
+                "AttributeName": "linktype",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "${AWS_INFO_DYNAMODB_TABLE}",
+        "KeySchema": [
+            {
+                "AttributeName": "language",
+                "KeyType": "HASH"
+            },
+            {
+                "AttributeName": "linktype",
+                "KeyType": "RANGE"
+            }
+        ],
+        "ProvisionedThroughput": {
+            "ReadCapacityUnits": 5,
+            "WriteCapacityUnits": 5
+        }
+}

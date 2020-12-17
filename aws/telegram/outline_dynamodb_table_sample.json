@@ -1,0 +1,19 @@
+{
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "chat_id",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "${AWS_DYNAMODB_TABLE}",
+        "KeySchema": [
+            {
+                "AttributeName": "chat_id",
+                "KeyType": "HASH"
+            }
+        ],
+        "ProvisionedThroughput": {
+            "ReadCapacityUnits": 5,
+            "WriteCapacityUnits": 5
+       }
+}

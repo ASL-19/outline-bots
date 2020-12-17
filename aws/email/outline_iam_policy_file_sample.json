@@ -1,0 +1,46 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:CreateNetworkInterface",
+                "ec2:DescribeNetworkInterfaces",
+                "ec2:DeleteNetworkInterface"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "lambda:UpdateFunctionEventInvokeConfig",
+                "lambda:InvokeFunction",
+                "lambda:GetFunction",
+                "ses:SendRawEmail",
+                "lambda:UpdateFunctionConfiguration",
+                "lambda:GetFunctionConfiguration",
+                "logs:PutLogEvents",
+                "lambda:UpdateFunctionCode",
+                "logs:CreateLogStream",
+                "iam:PassRole",
+                "lambda:ListTags",
+                "lambda:GetFunctionEventInvokeConfig",
+                "lambda:PublishVersion"
+            ],
+            "Resource": [
+                "arn:aws:lambda:${AWS_REGION}:${AWS_ACCOUNT}:function:${AWS_LAMBDA_FUNCTION}",
+                "arn:aws:logs:${AWS_REGION}:${AWS_ACCOUNT}:*",
+                "arn:aws:iam::${AWS_ACCOUNT}:role/${AWS_LAMBDA_ROLE}",
+                "arn:aws:ses:${AWS_REGION}:${AWS_ACCOUNT}:identity/${EMAIL_DOMAIN}"
+            ]
+        },
+        {
+            "Sid": "VisualEditor2",
+            "Effect": "Allow",
+            "Action": "logs:CreateLogGroup",
+            "Resource": "arn:aws:logs:${AWS_REGION}:${AWS_ACCOUNT}:*"
+        }
+    ]
+}

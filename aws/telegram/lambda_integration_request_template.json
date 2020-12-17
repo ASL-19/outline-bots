@@ -1,0 +1,3 @@
+{
+        "application/json": "#set($inputRoot = $input.path('$'))\n{\n    \"lang\" : \"$stageVariables.lang\",\n    \"token\" : \"$stageVariables.token\",\n    \"Input\": $input.json('$')\n}"
+    }

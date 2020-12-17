@@ -1,0 +1,95 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:DeleteItem",
+                "dynamodb:DescribeContributorInsights",
+                "dynamodb:ListTagsOfResource",
+                "lambda:GetFunctionConfiguration",
+                "dynamodb:UpdateContributorInsights",
+                "dynamodb:CreateBackup",
+                "dynamodb:UpdateTableReplicaAutoScaling",
+                "iam:PassRole",
+                "logs:CreateLogStream",
+                "lambda:ListTags",
+                "dynamodb:DescribeTable",
+                "dynamodb:GetItem",
+                "dynamodb:DescribeContinuousBackups",
+                "dynamodb:CreateGlobalTable",
+                "lambda:UpdateFunctionEventInvokeConfig",
+                "dynamodb:BatchGetItem",
+                "dynamodb:UpdateTimeToLive",
+                "dynamodb:BatchWriteItem",
+                "dynamodb:ConditionCheckItem",
+                "dynamodb:PutItem",
+                "lambda:InvokeFunction",
+                "lambda:GetFunction",
+                "lambda:UpdateFunctionConfiguration",
+                "dynamodb:Scan",
+                "dynamodb:Query",
+                "dynamodb:DescribeStream",
+                "dynamodb:UpdateItem",
+                "dynamodb:DescribeTimeToLive",
+                "logs:PutLogEvents",
+                "lambda:UpdateFunctionCode",
+                "dynamodb:DescribeGlobalTableSettings",
+                "lambda:GetFunctionEventInvokeConfig",
+                "dynamodb:GetShardIterator",
+                "dynamodb:DescribeGlobalTable",
+                "lambda:PublishVersion",
+                "dynamodb:DescribeBackup",
+                "dynamodb:UpdateTable",
+                "dynamodb:GetRecords",
+                "dynamodb:DescribeTableReplicaAutoScaling"
+            ],
+            "Resource": [
+                "arn:aws:iam::${AWS_ACCOUNT}:role/${AWS_LAMBDA_ROLE}",
+                "arn:aws:lambda:${AWS_REGION}:${AWS_ACCOUNT}:function:${AWS_LAMBDA_FUNCTION}",
+                "arn:aws:logs:${AWS_REGION}:${AWS_ACCOUNT}:*",
+                "arn:aws:dynamodb:${AWS_REGION}:${AWS_ACCOUNT}:table/${AWS_DYNAMODB_TABLE}",
+                "arn:aws:dynamodb:${AWS_REGION}:${AWS_ACCOUNT}:table/${AWS_INFO_DYNAMODB_TABLE}"
+            ]
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:GetShardIterator",
+                "dynamodb:GetItem",
+                "dynamodb:DescribeStream",
+                "dynamodb:GetRecords"
+            ],
+            "Resource": "arn:aws:dynamodb:${AWS_REGION}:${AWS_ACCOUNT}:table/${AWS_DYNAMODB_TABLE}/stream/*"
+        },
+        {
+            "Sid": "VisualEditor2",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:CreateNetworkInterface",
+                "ec2:DescribeNetworkInterfaces",
+                "ec2:DeleteNetworkInterface"
+            ],
+            "Resource": "*"
+        },
+        {
+            "Sid": "VisualEditor3",
+            "Effect": "Allow",
+            "Action": "logs:CreateLogGroup",
+            "Resource": "arn:aws:logs:${AWS_REGION}:${AWS_ACCOUNT}:*"
+        },
+        {
+            "Sid": "VisualEditor4",
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:DescribeReservedCapacityOfferings",
+                "dynamodb:DescribeReservedCapacity",
+                "dynamodb:DescribeLimits",
+                "dynamodb:ListStreams"
+            ],
+            "Resource": "arn:aws:dynamodb:${AWS_REGION}:${AWS_ACCOUNT}:table/${AWS_DYNAMODB_TABLE}/stream/*"
+        }
+    ]
+}

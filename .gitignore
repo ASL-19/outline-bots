@@ -1,0 +1,21 @@
+# env files
+env.sh
+aws_env.sh
+build_env.sh
+deploy_env.sh
+env_email.sh
+env_telegram.sh
+
+# json files with env values
+outline_dynamodb_table.json
+outline_info_dynamodb_table.json
+outline_iam_policy_file.json
+
+# Settings
+settings.py
+
+# build and deploy
+deploy
+dist
+
+.DS_Store
