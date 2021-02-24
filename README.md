@@ -4,6 +4,13 @@
 - **Common between Telegram Bot and Email Responder:**
    - You should have a user in the cloud provider with enough permission to create required resources
     - A user and password created in Outline Distribution Server (API Key/token)
+     - The user should have the following permissions
+      - Distribution app:
+       - OutlineUser: View, Add
+       - Vpnuser: View, Change, Add, Delete
+       - Issue: View
+      - Server app: 
+       - OutlineServer: View
     - Unix-based system
     - Binary (command) envsubst is needed. Install the related package. Example for Ubuntu:
         - apt-get update
